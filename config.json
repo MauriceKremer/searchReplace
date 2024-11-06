@@ -1,0 +1,10 @@
+{
+    "folder": ".",
+    "fileFilter": "*.txt",
+    "search": "(oldText_).*(_\\d+)",
+    "replacements": {
+        "dev": "${1}dev${2}",
+        "staging": "${1}staging${2}",
+        "production": "${1}prod${2}"
+    }
+}
